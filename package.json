@@ -2,7 +2,10 @@
   "name": "@bvarberg/testdouble-component",
   "version": "0.1.0",
   "description": "Extends testdouble support for React components",
-  "main": "lib/testdouble-component.tsx",
+  "main": "dist/testdouble-component.tsx",
+  "files": [
+    "dist"
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite",

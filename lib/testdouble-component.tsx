@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 
-function setup(testdouble: any) {
+export default function setup(testdouble: any) {
   const td = testdouble;
 
   function component<F>(displayName = "TestDoubleFunctionComponent") {
@@ -18,5 +18,3 @@ function setup(testdouble: any) {
 
   td.component = component;
 }
-
-export default setup;
