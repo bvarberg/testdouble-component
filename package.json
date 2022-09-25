@@ -1,6 +1,6 @@
 {
   "name": "@bvarberg/testdouble-component",
-  "version": "0.1.0-pre.9",
+  "version": "0.1.0-pre.10",
   "description": "Extends testdouble with support for React components",
   "main": "dist/testdouble-component.umd.cjs",
   "module": "dist/testdouble-component.mjs",
