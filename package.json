@@ -1,6 +1,6 @@
 {
   "name": "@bvarberg/testdouble-component",
-  "version": "0.1.0",
+  "version": "0.1.0-pre.2",
   "description": "Extends testdouble with support for React components",
   "main": "dist/testdouble-component.tsx",
   "files": [
