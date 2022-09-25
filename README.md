@@ -28,7 +28,7 @@ output.
 
 ---
 
-One way to  `td.component`, using Jest for module replacement.
+One way to use `td.component`, using Jest for module replacement.
 
 ```tsx
 describe("Consumer", () => {
