@@ -3,6 +3,7 @@
   "version": "0.1.0-pre.3",
   "description": "Extends testdouble with support for React components",
   "main": "dist/testdouble-component.tsx",
+  "types": "dist/plugin.d.ts",
   "files": [
     "dist"
   ],
