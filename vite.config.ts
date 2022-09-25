@@ -5,13 +5,9 @@ import dts from 'vite-plugin-dts'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-    react(),
-    dts({
-      copyDtsFiles: true
-    })],
+  plugins: [react(), dts()],
   build: {
-    minify: false,
+    sourcemap: true,
     lib: {
       entry: resolve(__dirname, "lib/testdouble-component.tsx"),
       name: "testdouble-component",

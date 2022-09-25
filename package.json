@@ -2,8 +2,8 @@
   "name": "@bvarberg/testdouble-component",
   "version": "0.1.0-pre.7",
   "description": "Extends testdouble with support for React components",
-  "main": "dist/testdouble-component.tsx",
-  "types": "dist/plugin.d.ts",
+  "main": "dist/testdouble-component.js",
+  "types": "dist/testdouble-component.d.ts",
   "files": [
     "dist"
   ],
@@ -15,7 +15,8 @@
   },
   "peerDependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "testdouble": "^3.16.6"
   },
   "devDependencies": {
     "@types/node": "^16.11.7",

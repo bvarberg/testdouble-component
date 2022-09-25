@@ -1,6 +1,7 @@
 import { FunctionComponent } from "react";
+import type { } from "testdouble";
 
-export default function setup(testdouble: any) {
+export function setup(testdouble: any) {
   const td = testdouble;
 
   function component<F>(displayName = "TestDoubleFunctionComponent") {
@@ -17,4 +18,13 @@ export default function setup(testdouble: any) {
   }
 
   td.component = component;
+}
+
+declare module "testdouble" {
+  /**
+   * Create a fake function component.
+   *
+   * @param displayName Name of function component for better messages.
+   */
+  export function component<F>(displayName?: string): F;
 }
