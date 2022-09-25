@@ -1,4 +1,4 @@
-export * from './testdouble-components'
+export * from './testdouble-component'
 
 declare module "testdouble" {
   /**
