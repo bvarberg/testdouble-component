@@ -1,3 +1,5 @@
+export * from './testdouble-components'
+
 declare module "testdouble" {
   /**
    * Create a fake function component.
