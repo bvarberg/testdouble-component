@@ -11,6 +11,7 @@ export default defineConfig({
       copyDtsFiles: true
     })],
   build: {
+    minify: false,
     lib: {
       entry: resolve(__dirname, "lib/testdouble-component.tsx"),
       name: "testdouble-component",
